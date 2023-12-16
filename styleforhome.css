@@ -33,3 +33,47 @@ img{
     margin-left: 500px;
     position: absolute;    
 }
+
+/* Your existing CSS */
+
+/* Media Query for screens smaller than 768px */
+/* Your existing CSS */
+
+/* Media Query for screens smaller than 768px */
+@media screen and (max-width: 768px) {
+    h1 {
+        font-size: 24px; /* Adjust font size for smaller screens */
+        position: relative;
+        text-align: left;
+    }
+
+    .button-container {
+        display: flex;
+        flex-direction: row; /* Change to column to place items vertically */
+        align-items: flex-start;
+        margin-left: 20px; /* Adjust as needed */
+    }
+
+    button {
+        width: 72px; /* Adjust button width for smaller screens */
+        height: 50px; /* Adjust button height for smaller screens */
+        margin-bottom: 5px; /* Adjust button margin for smaller screens */
+        font-size: 12px;
+    }
+
+    button:hover {
+        width: 130px; /* Adjust hover width for smaller screens */
+        height: 100px; /* Adjust hover height for smaller screens */
+    }
+
+    img {
+
+      width: 450px; /* Make sure the image fills its container */
+        height: 400px; /* Maintain aspect ratio */
+        max-width: 100%; /* Ensure image responsiveness */
+        margin-top: 50px;
+        margin-left: -10px;
+    }
+}
+
+
