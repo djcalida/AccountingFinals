@@ -1,0 +1,30 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+    position: relative;
+}
+
+.button-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 20px; /* Adjust as needed */
+}
+
+button {
+    margin-bottom: 10px; /* Adjust as needed */
+    width: 150px; /* Set a fixed width */
+    height: 120px; /* Set a fixed height */
+    border-radius: 5px;
+    font-size: 20px;
+}
+button:hover {
+    background-color: lightblue; /* Change the background color on hover */
+    width: 160px; /* Expand the width on hover */
+    height: 130px; /* Expand the height on hover */
+    /* Additional hover styles */
+}
